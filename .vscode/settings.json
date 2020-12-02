@@ -1,5 +1,5 @@
 {
-    "python.pythonPath": "C:\\Users\\brein\\AppData\\Local\\Programs\\Python\\Python39\\python.exe",
+    "python.pythonPath": "C:\\Users\\krb\\Anaconda3\\python.exe",
     "python.linting.pycodestyleEnabled": false,
     "python.linting.pylintEnabled": true,
     "python.linting.enabled": true
