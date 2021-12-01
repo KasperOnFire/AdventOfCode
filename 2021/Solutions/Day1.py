@@ -1,5 +1,4 @@
-﻿from os import read
-from pathlib import Path
+﻿from pathlib import Path
 
 input_file = Path("../Data/Day1Input.txt")
 
