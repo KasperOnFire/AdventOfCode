@@ -33,5 +33,5 @@ def calc_fuel_recursive(mass):
         return fuel_needed + calc_fuel_recursive(fuel_needed)
 
 
-total_fuel_needed_recursive = sum([calc_fuel_recursive(element) for element in list_of_module_masses])
+total_fuel_needed_recursive = sum([calc_fuel_recursive(mass) for mass in list_of_module_masses])
 print(total_fuel_needed_recursive)

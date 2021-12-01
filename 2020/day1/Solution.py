@@ -15,8 +15,6 @@ with open(file_path, "r") as input_file:
 def task_1(list_of_numbers):
     for a in list_of_numbers:
         for b in list_of_numbers:
-            if a == b:
-                continue
             if a+b == 2020:
                 print(a)
                 print(b)
@@ -32,8 +30,6 @@ def task_2(list_of_numbers):
     for a in list_of_numbers:
         for b in list_of_numbers:
             for c in list_of_numbers:
-                if a == b or a == c or b == c:
-                    continue
                 if a+b+c == 2020:
                     print(a)
                     print(b)
