@@ -16,7 +16,7 @@ if __name__ == '__main__':
         data = [x for x in f.read().splitlines()]
         route = []
         for line in data:
-            cmd = (str(x[0]), int(x[1]) for x in line.split())
+            cmd = tuple(str(x[0]), int(x[1]) for x in line.split())
             route.append(cmd)
 
     print(calculate_route_and_return_product(route))
