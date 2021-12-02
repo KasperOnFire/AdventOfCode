@@ -13,6 +13,10 @@ def calculate_route_and_return_product(data: List[(str, int)]) -> int:
 
 if __name__ == '__main__':
     with open('../Data/Day2Input.txt', 'r') as f:
-        array = [(str(x), int(y)) for x, y in f.read().splitlines().split(" ")]
+        data = [x for x in f.read().splitlines()]
+        route = []
+        for line in data:
+            cmd = (str(x[0]), int(x[1]) for x in line.split())
+            route.append(cmd)
 
-    print(calculate_route_and_return_product(array))
+    print(calculate_route_and_return_product(route))
