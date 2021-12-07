@@ -23,7 +23,7 @@ if __name__ == '__main__':
         input_numbers = [int(x) for x in data[0].split(",")]
         data = data.pop[0:2]
         input_boards = []
-        for line in data[, 5]:
+        for line in data[:, 5]:
             board = []
             board.append(line.split())
 
