@@ -68,7 +68,7 @@ def verify_life_support_rating(inputs: list[str]) -> int:
 
 
 if __name__ == '__main__':
-    with open(Path("../Data/Day3Input.txt"), 'r') as f:
+    with open(Path("../Data/Day03Input.txt"), 'r') as f:
         data = [x for x in f.read().splitlines()]
         test = ["00100", "11110", "10110", "10111", "10101", "01111", "00111", "11100", "10000", "11001", "00010",
                 "01010"]

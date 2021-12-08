@@ -1,6 +1,6 @@
 ﻿from pathlib import Path
 
-input_file = Path("../Data/Day1Input.txt")
+input_file = Path("../Data/Day01Input.txt")
 
 sonar_readings = []
 

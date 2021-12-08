@@ -32,7 +32,7 @@ def calculate_route_with_aim_and_return_product(inputs: list[(str, int)]) -> int
 
 
 if __name__ == '__main__':
-    with open(Path("../Data/Day2Input.txt"), 'r') as f:
+    with open(Path("../Data/Day02Input.txt"), 'r') as f:
         data = [x for x in f.read().splitlines()]
         route = []
         for line in data:
